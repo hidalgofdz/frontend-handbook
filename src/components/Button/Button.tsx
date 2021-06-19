@@ -42,7 +42,7 @@ function Button({
   ...otherProps
 }: ButtonProps) {
   const cx = cc(
-    "border rounded-lg px-4 py-2 min-w-btn min-h-btn",
+    "border rounded-lg px-8 py-4 min-w-btn min-h-btn",
     {
       "w-full": fullWidth,
     },
