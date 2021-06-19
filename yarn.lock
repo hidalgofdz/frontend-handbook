@@ -2251,6 +2251,17 @@
     regenerator-runtime "^0.13.7"
     ts-dedent "^2.0.0"
 
+"@storybook/addon-postcss@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-postcss/-/addon-postcss-2.0.0.tgz#ec61cb9bb2662f408072b35c466c7df801c28498"
+  integrity sha512-Nt82A7e9zJH4+A+VzLKKswUfru+T6FJTakj4dccP0i8DSn7a0CkzRPrLuZBq8tg4voV6gD74bcDf3gViCVBGtA==
+  dependencies:
+    "@storybook/node-logger" "^6.1.14"
+    css-loader "^3.6.0"
+    postcss "^7.0.35"
+    postcss-loader "^4.2.0"
+    style-loader "^1.3.0"
+
 "@storybook/addon-toolbars@6.2.9":
   version "6.2.9"
   resolved "https://registry.yarnpkg.com/@storybook/addon-toolbars/-/addon-toolbars-6.2.9.tgz#29f2f4cba0bfbcff9424958eb573e537f7e2d5af"
@@ -2637,7 +2648,7 @@
   dependencies:
     lodash "^4.17.15"
 
-"@storybook/node-logger@6.2.9", "@storybook/node-logger@^6.2.9":
+"@storybook/node-logger@6.2.9", "@storybook/node-logger@^6.1.14", "@storybook/node-logger@^6.2.9":
   version "6.2.9"
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-6.2.9.tgz#c67d8d7684514b8d00207502e8a9adda0ee750e5"
   integrity sha512-ryRBChWZf1A5hOVONErJZosS25IdMweoMVFAUAcj91iC0ynoSA6YL2jmoE71jQchxEXEgkDeRkX9lR/GlqFGZQ==
@@ -2655,7 +2666,7 @@
   dependencies:
     core-js "^3.8.2"
 
-"@storybook/preset-create-react-app@^3.1.7":
+"@storybook/preset-create-react-app@^3.1.5", "@storybook/preset-create-react-app@^3.1.7":
   version "3.1.7"
   resolved "https://registry.yarnpkg.com/@storybook/preset-create-react-app/-/preset-create-react-app-3.1.7.tgz#e48df77768bdcc4863e3918c11965c45e4110ac8"
   integrity sha512-SR+HGSWCrhHA5sszuIHJYdh2tWNi/zu858WB5RM74OBW4ogo8Bv4/7td4p53eWbdm0zBDbnKcrBmwRrAYqwL9Q==
@@ -14021,6 +14032,13 @@ store2@^2.12.0:
   version "2.12.0"
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.12.0.tgz#e1f1b7e1a59b6083b2596a8d067f6ee88fd4d3cf"
   integrity sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==
+
+storybook-preset-craco@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/storybook-preset-craco/-/storybook-preset-craco-0.0.4.tgz#c5ea356d27c23473a159d516873c0871cf7cc3fb"
+  integrity sha512-49YX1N9KWLZObhXwV3YTZN91PONbIi4P4LaDEQ3ruwrxv3bdRp+P/Nj/911J8glrJIumjFNHQ2gKlOKf2o34gw==
+  dependencies:
+    "@storybook/preset-create-react-app" "^3.1.5"
 
 stream-browserify@^2.0.1:
   version "2.0.2"
