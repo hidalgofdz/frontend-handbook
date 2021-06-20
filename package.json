@@ -31,6 +31,7 @@
     "pre-commit": "lint-staged",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
+    "chromatic": "chromatic",
     "type-check": "tsc --project tsconfig.json --pretty --noEmit"
   },
   "eslintConfig": {
