@@ -1,6 +1,7 @@
 import ButtonComponent from "./Button";
 import { Story } from "@storybook/react";
 import { ComponentProps } from "react";
+import chromatic from "../../../.storybook/chromatic-default-settings";
 
 const Template: Story<ComponentProps<typeof ButtonComponent>> = ({
   ...args
@@ -12,6 +13,9 @@ const Template: Story<ComponentProps<typeof ButtonComponent>> = ({
 export default {
   title: "Components/Button",
   component: ButtonComponent,
+  parameters: {
+    chromatic,
+  },
 };
 
 export const Button = Template.bind({});
